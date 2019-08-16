@@ -1,0 +1,38 @@
+body {
+    background-color: yellow;
+    margin-top: 50px;
+}
+.row {
+    border: 2px solid black;
+    margin: 0px;
+}
+.header {
+    background-color: blue;
+    height: 10em;
+    border-bottom: 2px solid black;
+}
+.nav {
+    background-color: green;
+    height: 5em;
+}
+.content {
+    background-color: red;
+    height: 15em;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+.aside {
+    background-color: mediumturquoise;
+    height: 15em;
+    border-bottom: 2px solid black;
+}
+.promo {
+    background-color: chocolate;
+    height: 10em;
+    border-right: 2px solid black;
+}
+.footer {
+    background-color: black;
+    color: white;
+    height: 5em;
+}
