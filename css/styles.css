@@ -1,6 +1,12 @@
 body {
-    background-color: yellow;
+background-color: blue;
     margin-top: 50px;
+}
+.container-fluid {
+    background-color: lavender;
+    border: 2px solid black;
+    padding: 100px;
+    margin: 50px;
 }
 .row {
     border: 2px solid black;
@@ -36,3 +42,14 @@ body {
     color: white;
     height: 5em;
 }
+   
+@media screen and (min-width: 468px) {
+    body, .header, .nav, .content, .aside, .promo, .footer, .container-fluid {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 875px) {
+    body, .header, .nav, .content, .aside, .promo, .footer, .container-fluid {
+      background-color: lavender;
+    }
